@@ -28,7 +28,7 @@ if (file_exists($env_config)) {
  */
 define('WP_HOME', getenv('WP_HOME'));
 define('WP_SITEURL', getenv('WP_SITEURL'));
-
+define('WP_MEMORY_LIMIT', '512M');
 /**
  * Custom Content Directory
  */
